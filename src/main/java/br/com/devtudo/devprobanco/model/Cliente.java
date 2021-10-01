@@ -25,7 +25,7 @@ public class Cliente {
 	@Column(name="email", length=50,unique=true)
 	private String email;
 	@Column(name="data_nascimento")
-	private LocalDate dt_nasc;
+	private LocalDate data_nascimento;
 	public int getCodigo() {
 		return codigo;
 	}
@@ -56,11 +56,11 @@ public class Cliente {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public LocalDate getDt_nasc() {
-		return dt_nasc;
+	public LocalDate getData_nascimento() {
+		return data_nascimento;
 	}
-	public void setDt_nasc(LocalDate dt_nasc) {
-		this.dt_nasc = dt_nasc;
+	public void setData_nascimento(LocalDate data_nascimento) {
+		this.data_nascimento = data_nascimento;
 	}
 	
 }
