@@ -10,13 +10,13 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="tbl_cliente")
+@Table(name="tb_cliente")
 public class Cliente {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="codigo")
 	private int codigo;
-	@Column(name="nome",length = 100)
+	@Column(name="nome",length = 50)
 	private String nome;
 	@Column(name="cpf",length=15, unique = true)
 	private String cpf;
@@ -24,7 +24,7 @@ public class Cliente {
 	private String telefone;
 	@Column(name="email", length=50,unique=true)
 	private String email;
-	@Column(name="data_nasc")
+	@Column(name="data_nascimento")
 	private LocalDate dt_nasc;
 	public int getCodigo() {
 		return codigo;
