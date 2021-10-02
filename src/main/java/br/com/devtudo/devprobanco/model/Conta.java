@@ -10,17 +10,17 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="tbl_conta")
+@Table(name="tb_conta")
 public class Conta {
 	@Id
 	@Column(name="numero")
 	private int numero;
-	@Column(name="dv")
-	private int dv;
+	@Column(name="digito")
+	private int digito;
 	@Column(name="agencia")
 	private int agencia;
 	@Column(name="data_abertura")
-	private LocalDate abertura;
+	private LocalDate dataAbertura;
 	@Column(name="saldo")
 	private Double saldo;
 	@Column(name="tipo")
@@ -34,11 +34,11 @@ public class Conta {
 	public void setNumero(int numero) {
 		this.numero = numero;
 	}
-	public int getDv() {
-		return dv;
+	public int getDigito() {
+		return digito;
 	}
-	public void setDv(int dv) {
-		this.dv = dv;
+	public void setDigito(int digito) {
+		this.digito = digito;
 	}
 	public int getAgencia() {
 		return agencia;
@@ -46,11 +46,11 @@ public class Conta {
 	public void setAgencia(int agencia) {
 		this.agencia = agencia;
 	}
-	public LocalDate getAbertura() {
-		return abertura;
+	public LocalDate getDataAbertura() {
+		return dataAbertura;
 	}
-	public void setAbertura(LocalDate abertura) {
-		this.abertura = abertura;
+	public void setDataAbertura(LocalDate abertura) {
+		this.dataAbertura = abertura;
 	}
 	public Double getSaldo() {
 		return saldo;
