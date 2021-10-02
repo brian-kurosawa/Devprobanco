@@ -1,4 +1,4 @@
-package br.com.isidrocorp.helloworld.controller;
+package br.com.devtudo.devprobanco.controller;
 
 import java.util.ArrayList;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.isidrocorp.helloworld.DAO.ContaDao;
-import br.com.isidrocorp.helloworld.model.Conta;
+import br.com.devtudo.devprobanco.DAO.ContaDao;
+import br.com.devtudo.devprobanco.model.Conta;
 
 @RestController
 public class ContaController {

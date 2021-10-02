@@ -1,8 +1,8 @@
-package br.com.isidrocorp.helloworld.DAO;
+package br.com.devtudo.devprobanco.DAO;
 
 import org.springframework.data.repository.CrudRepository;
 
-import br.com.isidrocorp.helloworld.model.Conta;
+import br.com.devtudo.devprobanco.model.Conta;
 
 public interface ContaDao extends CrudRepository<Conta, Integer> {
 

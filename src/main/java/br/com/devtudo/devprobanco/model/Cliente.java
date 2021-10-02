@@ -1,4 +1,4 @@
-package br.com.isidrocorp.helloworld.model;
+package br.com.devtudo.devprobanco.model;
 
 import java.time.LocalDate;
 

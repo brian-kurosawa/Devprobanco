@@ -1,8 +1,8 @@
-package br.com.isidrocorp.helloworld.DAO;
+package br.com.devtudo.devprobanco.DAO;
 
 import org.springframework.data.repository.CrudRepository;
 
-import br.com.isidrocorp.helloworld.model.Cliente;
+import br.com.devtudo.devprobanco.model.Cliente;
 
 public interface ClienteDao extends CrudRepository<Cliente, Integer> {
 	

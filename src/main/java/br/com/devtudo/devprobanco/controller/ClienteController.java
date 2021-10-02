@@ -1,4 +1,4 @@
-package br.com.isidrocorp.helloworld.controller;
+package br.com.devtudo.devprobanco.controller;
 
 import java.util.ArrayList;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.isidrocorp.helloworld.DAO.ClienteDao;
-import br.com.isidrocorp.helloworld.model.Cliente;
+import br.com.devtudo.devprobanco.DAO.ClienteDao;
+import br.com.devtudo.devprobanco.model.Cliente;
 
 @RestController
 public class ClienteController {
