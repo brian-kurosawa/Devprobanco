@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/gallo/Área de Trabalho/workspaceweb/Devprobanco/.metadata/.plugins/org.eclipse.jdt.core
+3070904283.index
+3152718992.index
