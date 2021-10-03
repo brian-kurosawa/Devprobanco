@@ -26,7 +26,7 @@ public class Conta {
 	@Column(name="tipo")
 	private int tipo;
 	@ManyToOne
-	@JoinColumn(name = "cod_cliente")
+	@JoinColumn(name = "codigo_cliente")
 	private Cliente titular;
 	public int getNumero() {
 		return numero;
